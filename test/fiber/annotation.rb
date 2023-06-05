@@ -3,15 +3,18 @@
 # Released under the MIT License.
 # Copyright, 2023, by Samuel Williams.
 
-require 'fiber/annotate'
+require 'fiber/annotation'
 
 describe Fiber do
-	it "should be able to annotate a fiber" do
-		fiber = Fiber.new(annotation: "foo") do
-			expect(Fiber.current.annotation).to be == "foo"
+	with '.new' do
+		it "should be able to annotate a fiber" do
+			fiber = Fiber.new(annotation: "foo") do
+				expect(Fiber.current.annotation).to be == "foo"
+			end
+			
+			expect(fiber.annotation).to be == "foo"
+			expect(Fiber.current.annotation).to be == nil
 		end
-		
-		expect(fiber.annotation).to be == "foo"
 	end
 	
 	with '.annotate' do

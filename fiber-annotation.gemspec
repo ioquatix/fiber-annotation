@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/fiber/annotate/version"
+require_relative "lib/fiber/annotation/version"
 
 Gem::Specification.new do |spec|
-	spec.name = "fiber-annotate"
-	spec.version = Fiber::Annotate::VERSION
+	spec.name = "fiber-annotation"
+	spec.version = Fiber::Annotation::VERSION
 	
 	spec.summary = "A mechanism for annotating fibers."
 	spec.authors = ["Samuel Williams"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 	spec.cert_chain  = ['release.cert']
 	spec.signing_key = File.expand_path('~/.gem/release.pem')
 	
-	spec.homepage = "https://github.com/ioquatix/fiber-annotate"
+	spec.homepage = "https://github.com/ioquatix/fiber-annotation"
 	
 	spec.metadata = {
 		"funding_uri" => "https://github.com/sponsors/ioquatix/",

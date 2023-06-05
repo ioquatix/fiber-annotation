@@ -4,7 +4,7 @@
 # Copyright, 2023, by Samuel Williams.
 
 class Fiber
-	module Annotate
+	module Annotation
 		VERSION = "0.1.0"
 	end
 end

@@ -1,12 +1,12 @@
-# Fiber::Annotate
+# Fiber::Annotation
 
-A simple way to annotate what a fiber is currently doing, useful for debugging.
+A simple way to annotate what a fiber is currently doing, useful for debugging, logging and tracing.
 
-[![Development Status](https://github.com/ioquatix/fiber-annotate/workflows/Test/badge.svg)](https://github.com/ioquatix/fiber-annotate/actions?workflow=Test)
+[![Development Status](https://github.com/ioquatix/fiber-annotation/workflows/Test/badge.svg)](https://github.com/ioquatix/fiber-annotation/actions?workflow=Test)
 
 ## Usage
 
-Please see the [project documentation](https://ioquatix.github.io/fiber-annotate).
+Please see the [project documentation](https://ioquatix.github.io/fiber-annotation).
 
 ## Contributing
 

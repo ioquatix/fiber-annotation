@@ -1,13 +1,13 @@
 # Getting Started
 
-This guide gives shows how to add fiber-annotate to your project and annotate your fibers.
+This guide shows how to add `fiber-annotation` to your project and annotate your fibers.
 
 ## Installation
 
 Add the gem to your project:
 
 ~~~ bash
-$ bundle add fiber-annotate
+$ bundle add fiber-annotation
 ~~~
 
 ## Annotating a Fiber
