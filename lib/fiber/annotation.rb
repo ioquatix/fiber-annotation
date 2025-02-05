@@ -43,6 +43,17 @@ class Fiber
 				@annotation = annotation
 			end
 		end
+		
+		# Augment Fiber#inspect to include the annotation.
+		# def inspect
+		# 	inspect = super
+			
+		# 	if @annotation
+		# 		inspect[-1,1] = ": #{@annotation}>"
+		# 	end
+			
+		# 	return inspect
+		# end
 	end
 end
 
